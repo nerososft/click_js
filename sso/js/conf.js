@@ -1,0 +1,1 @@
+$(window).preloader({delay:100});

@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	background-color: #FFFFFF;
+	background-color: #EEEEEE;
+}
+
+header {
+	width: 100%;
+	height: 80px;
+	border-bottom: solid 1px #e0e0e0;
+	background-color: #FFFFFF;
+}
+
+.click-container {
+	width: 1200px;
+	height: 80px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.click-container img {
+	height: 60px;
+	margin: 10px;
+}
+
+.click-container .title {
+	height: 40px;
+	line-height: 40px;
+	margin-top: 20px;
+	margin-left: 50px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	font-size: 28px;
+	color: #7e68ae;
+	text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.click-container .home {
+	height: 40px;
+	line-height: 40px;
+	margin-top: 20px;
+}
+
+.click-container .home a {
+	font-size: 16px;
+}
+
+.click-main {
+	position: relative;
+	width: 100%;
+	min-height: 200px;
+	padding: 100px;
+	background: -moz-linear-gradient(315deg, #ace, #f96);
+	background: -webkit-gradient(linear, 0% 0%, 100% 100%, from(#ace), to(#f96));
+	background: -webkit-linear-gradient(315deg, #ace, #f96);
+	background: -o-linear-gradient(315deg, #ace, #f96);
+}
+
+.login-page {
+	width: 500px;
+	margin: 0 auto;
+	position: relative;
+	left: 240px;
+	box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.login-form-text {
+	font-size: 24px;
+}
+
+.dna-img {
+	width: 0;
+	height: 0;
+}
+
+.dna-img img {
+	width: 450px;
+	height: 450px;
+	margin-left: 100px;
+}
+
+footer {
+	width: 100%;
+	height: 180px;
+	background-color: #EEEEEE;
+}
+
+.footer-container {
+	width: 1200px;
+	padding-top: 50px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 14px;
+}
+
+.footer-container a {
+	color: #404d5b;
+	color: #777;
+}
+
+.footer-container a:hover {
+	color: #ccc;
+}

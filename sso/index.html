@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Click_sso_Login</title>
+		<link rel="stylesheet" href="css/materialize.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/default.css">
+		<link rel="stylesheet" href="css/click_sso_style.css" />
+		<link rel="stylesheet" href="preload/style.css" />
+	</head>
+
+	<body>
+		<div id="preloader">
+			<div id="preloader-inner"></div>
+		</div>
+		<header>
+			<div class="click-container">
+				<img src="images/logo.gif" class="left" />
+				<div class="left title">Please Login On this site</div>
+				<div class="right home">
+					<a href="../click/" title="Return to the home page">Home</a>
+				</div>
+			</div>
+		</header>
+
+		<div class="click-main">
+			<div class="dna-img">
+				<img src="images/57-DNA.png" />
+			</div>
+
+			<div class="login-page">
+				<div class="col s12 z-depth-6 card-panel">
+					<form class="login-form">
+						<div class="row">
+							<div class="input-field col s12 center">
+								<p class="center login-form-text">Please login to your account</p>
+							</div>
+						</div>
+						<div class="row margin">
+							<div class="input-field col s12">
+								<i class="mdi-social-person-outline prefix"></i>
+								<input class="validate" id="email" type="email">
+								<label for="email" data-error="wrong" data-success="right" class="center-align">Email</label>
+							</div>
+						</div>
+						<div class="row margin">
+							<div class="input-field col s12">
+								<i class="mdi-action-lock-outline prefix"></i>
+								<input id="password" type="password">
+								<label for="password">Password</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12 m12 l12  login-text">
+								<input type="checkbox" id="remember-me" />
+								<label for="remember-me">Remember me</label>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s12">
+								<a class="btn waves-effect waves-light col s12" id="login">Login</a>
+							</div>
+						</div>
+						<div class="row">
+							<div class="input-field col s6 m6 l6">
+								<p class="margin medium-small">
+									<a href="register/">Register now!</a>
+								</p>
+							</div>
+							<div class="input-field col s6 m6 l6">
+								<p class="margin right-align medium-small">
+									<a href="forgot/">Forgot password?</a>
+								</p>
+							</div>
+						</div>
+					</form>
+
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<div class="footer-container">
+				<div>
+					<a href="#">link1</a><span> / </span>
+					<a href="#">link2</a><span> / </span>
+					<a href="#">link3</a><span> / </span>
+					<a href="#">link4</a>
+				</div>
+				<div>
+					<a href="#">link1</a><span> / </span>
+					<a href="#">link2</a><span> / </span>
+					<a href="#">link3</a><span> / </span>
+					<a href="#">link4</a>
+				</div>
+				<div>
+					Copyright &copy; 2016
+				</div>
+			</div>
+		</footer>
+
+		<script type="text/javascript" src="js/jquery-2.2.1.min.js"></script>
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<script type="text/javascript" src="preload/jquery.preloader.min.js" ></script>
+		<script type="text/javascript" src="js/conf.js" ></script>
+
+	</body>
+
+</html>
