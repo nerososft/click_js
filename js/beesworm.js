@@ -1,7 +1,7 @@
 var beesworm = new Object({
     URL:{
         BASE_URL: function(){
-            return "http://localhost:8080/data/";
+            return "http://localhost:8080/data/data/";
         },
         BEESWORM: function(genename,cancertype){
             return beesworm.URL.BASE_URL()+genename+"/"+cancertype+"/beeswarmnew";
