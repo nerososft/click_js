@@ -1,6 +1,6 @@
 var Sso = new Object({
     URL:{
-        BASE:"http://localhost:8080/"
+        BASE:"http://localhost:8084/"
     },
     /**
      * 验证码相关
