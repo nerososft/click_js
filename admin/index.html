@@ -168,7 +168,7 @@
     </div>
      <div class="col-sm-6 col-md-6">
         <div class="panel panel-default">
-            <div class="panel-heading no-collapse">Links<span class="label label-info"><a style="color: #fff;" href="">+</a></span></div>
+            <div class="panel-heading no-collapse">Links<span class="label label-info"><a style="color: #fff;" href="javascript:PageManager.View.addLink();">+</a></span></div>
             <div class="panel-body no-collapse">
               <table class="table col-md-12">
                 <tbody id="page_links">
@@ -184,10 +184,10 @@
 <div class="row">
     <div class="col-sm-6 col-md-6">
         <div class="panel panel-default">
-            <div class="panel-heading no-collapse">Logos<span class="label label-info"><a style="color: #fff;" href="">+</a></span></div>
+            <div class="panel-heading no-collapse">Logos<span class="label label-info"><a style="color: #fff;" href="javascript:PageManager.View.addLogo();">+</a></span></div>
             <div class="panel-body no-collapse">
               <table class="table col-md-12">
-                <tbody id="page_logos" class="col-md-12">
+                <tbody id="page_logos">
                   
                 </tbody>
               </table>
@@ -196,7 +196,7 @@
     </div>
     <div class="col-sm-6 col-md-6">
         <div class="panel panel-default">
-            <div class="panel-heading no-collapse">Banners<span class="label label-info"><a style="color: #fff;" href="">+</a></span></div>
+            <div class="panel-heading no-collapse">Banners<span class="label label-info"><a style="color: #fff;" href="javascript:PageManager.View.addBanner();">+</a></span></div>
             <div class="panel-body no-collapse">
               <table class="table col-md-12">
                  <tbody id="page_banners">
@@ -215,6 +215,7 @@
 
 
     <script src="lib/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/jquery.cookie.js"></script>
     <script type="text/javascript" src="js/layer/layer.js"></script>
     <script type="text/javascript" src="js/page.js"></script>
     <script type="text/javascript">

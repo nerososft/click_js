@@ -5,7 +5,7 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Click-Home</title>
+		<title id="page_title">Click-Home</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="fonts/FontAwesome/font-awesome.css" rel="stylesheet">
 		<link href='css/googlefont_open_sans.css' rel='stylesheet' type='text/css'>
@@ -27,10 +27,9 @@
 		<!-- Start Home -->
 		<div class="pageheader">
 			<div class="container">
-				<h2 class="title animated fadeInLeft">Click: Do GWAS analysis by yourself by Clicking</h2>
-				<div class="col-md-12">
-					<a class="title animated fadeInLeft" href="http://www.tju.edu.cn"><img class="col-md-2 " style="background:#fff;width:12em;height:4.5em;" src="images/brand/tju.png"/></a>
-					<a href="http://www.utsouthwestern.edu"><img class="col-md-2" style="width:12em;height:4.5em;" src="images/brand/ut.jpg" /></a>
+				<h2 id="page_label" class="title animated fadeInLeft">Click: Do GWAS analysis by yourself by Clicking</h2>
+				<div id="page_logos" class="col-md-12">
+					
 				</div>
 			</div>
 		</div>
@@ -87,22 +86,8 @@
 
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Links</a>
-							<ul class="dropdown-menu">
-								<li>
-									<a href="#">Links1</a>
-								</li>
-								<li>
-									<a href="#">Links2</a>
-								</li>
-								<li>
-									<a href="#">Links3</a>
-								</li>
-								<li>
-									<a href="#">Links4</a>
-								</li>
-								<li>
-									<a href="#">Links5</a>
-								</li>
+							<ul id="page_links_ul" class="dropdown-menu">
+							
 							</ul>
 						</li>
 					</ul>
@@ -121,16 +106,9 @@
 					<div class="col-md-8 col-xs-12">
 						<!-- Swiper -->
 						<div class="swiper-container">
-							<div class="swiper-wrapper">
-								<div class="swiper-slide">
-									<img src="http://www.cbdio.com/image/attachement/jpg/site2/20160412/3417eb9bbd591876b6463a.jpg">
-								</div>
-								<div class="swiper-slide">
-									<img src="http://www.jintai-bio.com/media/images/product_service/jyjc/jiangkang-t.jpg">
-								</div>
-								<div class="swiper-slide">
-									<img src="http://lywb.lyd.com.cn/images/2013-08/13/1376353941093ms38174_b.jpg">
-								</div>
+							<div id="page_banners" class="swiper-wrapper">
+								
+								
 							</div>
 							<!-- Add Pagination -->
 							<div class="swiper-pagination"></div>
@@ -141,20 +119,8 @@
 							<div class="title">Updates</div>
 							<div class="con">
 								<ul>
-									<!--
-										Updates 最多10条
-									-->
 									<li>
 										<a time="[2016/10/06]" href="#">Click and see.</a>
-									</li>
-									<li>
-										<a time="[2016/10/04]" href="#">Click here click here.</a>
-									</li>
-									<li>
-										<a time="[2016/10/01]" href="#">This is an update.</a>
-									</li>
-									<li>
-										<a time="[2016/09/30]" href="#">This is a piece of news.</a>
 									</li>
 
 								</ul>
@@ -204,18 +170,14 @@
 
 		<footer>
 			<div class="container">
-				<div class="links">
-					<a href="">links1</a><span> / </span>
-					<a href="">links2</a><span> / </span>
-					<a href="">links3</a><span> / </span>
-					<a href="">links4</a><span> / </span>
-					<a href="">links5</a><span> / </span>
+				<div id="page_links" class="links">
+					
 				</div>
 				<div class="copys">
-					<span>Copyright&copy;2016 balabala</span>
+					<span>Copyright&copy;2016 clickgwas</span>
 				</div>
 				<div class="infos">
-					<span>some infomation some infomation some infomation</span>
+					<span id="page_footer"></span>
 				</div>
 			</div>
 		</footer>
@@ -226,6 +188,12 @@
 		<script type="text/javascript" src="js/swiper.min.js"></script>
 		<script type="text/javascript" src="preload/jquery.preloader.min.js"></script>
 		<script type="text/javascript" src="js/home.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				PageManager.Operate.getPage();
+			});
+		</script>
 	</body>
 
 </html>
